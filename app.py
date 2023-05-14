@@ -5,9 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    """
-    docstring workaround
-    """
+
     return '<h1>Hello WSB! Greetings from Flask!</h1>'
 
 
